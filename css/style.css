@@ -13,14 +13,16 @@ body {
 
 header{
     background-color: #35424a;
+    height: 100px;
+    border-bottom: solid 2.5px #e8491d;
+}
+
+header h1, header nav {
+    padding-top: 10px;
 }
 
 ul{
     list-style: none;
-}
-
-a{
-    color: #fff;
 }
 
 a:visited{
@@ -58,6 +60,7 @@ nav li {
 }
 
 
+
 /* 
 -----------------------TYPOGRAPHY-----------------------
 */
@@ -72,6 +75,37 @@ h1 span {
     font-weight: bold;
 }
 
-.showcase{
-    color:
+.showcase {
+    text-align: center;
+}
+
+.showcase h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.boxes{
+    color: #000;
+}
+
+
+
+.newsletter {
+    background-color: #35424a;
+    height: 100px;
+}
+
+.showcase {
+    height: 400px;
+    background-image: url(../imgs/showcase.jpg);
+    background-size: 50px auto;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+footer {
+    background-color: #e8491d;
+    text-align: center;
+    height: 92px;
+    text-align: center;
 }
