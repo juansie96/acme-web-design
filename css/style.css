@@ -53,6 +53,7 @@ header a{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 1.07em;
 }
 
 header li {
@@ -163,6 +164,7 @@ footer {
     padding: 20px 0;
     text-align: center;
     color: #fff;
+    margin-top: 20px;
 }
 
 
@@ -177,14 +179,34 @@ footer {
 
 */
 
-#main #main-col{
+article#main-col{
     width: 65%;
     float: left;
 }
 
-#main #sidebar {
+aside#sidebar {
     width: 30%;
     float:right;
+    margin-top: 10px;
 }
+
+/* 
+-----------------------SERVICES-----------------------
+*/
+
+ul#services li {
+    list-style: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+
 
 
