@@ -1,4 +1,4 @@
-# Acme Web Design - [WEBSITE LIVE](https://juansie96.github.io/acme-web-design/)
+# Acme Web Design - [Website Live](https://juansie96.github.io/acme-web-design/)
 
   This project consists on a website with 3 pages. It's main purpose is to deepen my knowledge of web design, focusing on pure CSS with responsive design.
   
